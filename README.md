@@ -140,3 +140,26 @@ Usage: <class_name>.update(<_id>, <dictionary>)
 (hbnb) ["[User] (98bea5de-9cb0-4d78-8a9d-c4de03521c30) {'updated_at': datetime.datetime(2020, 2, 19, 21, 47, 29, 134362), 'name': 'Fred the Frog', 'age': 9, 'id': '98bea5de-9cb0-4d78-8a9d-c4de03521c30', 'created_at': datetime.datetime(2020, 2, 19, 21, 47, 29, 134343)}"]
 ```
 <br>
+
+
+# 0x02. AirBnB clone - MySQL
+<ul>
+Environment variables will be your best friend for this project!
+<li>
+HBNB_ENV: running environment. It can be “dev” or “test” for the moment (“production” soon!)
+</li>
+<li>
+HBNB_MYSQL_USER: the username of your MySQL
+</li>
+<li>
+HBNB_MYSQL_PWD: the password of your MySQL
+</li>
+<li>
+HBNB_MYSQL_HOST: the hostname of your MySQL
+</li>
+<li>
+HBNB_MYSQL_DB: the database name of your MySQL
+</li>
+<li>
+HBNB_TYPE_STORAGE: the type of storage used. It can be “file” (using FileStorage) or db (using DBStorage)</li>
+</ul>
